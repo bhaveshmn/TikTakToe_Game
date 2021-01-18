@@ -115,7 +115,18 @@
 
         </LinearLayout>
 
+
     </LinearLayout>
+
+
+
+
+
+
+
+
+
+
 
 
     <Button
@@ -129,7 +140,7 @@
         android:textAllCaps="false"
         android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="80dp">
+        android:layout_marginBottom="20dp">
     </Button>
 
 

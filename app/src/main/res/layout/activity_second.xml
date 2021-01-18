@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1bee7"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="TikTakToe"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="1. The game is played on a grid that's 3 into 3 squares.
+                      2. You are O, your friend is X. Players take turns putting their marks in empty squares.
+                      3. The first player to get 3 of her marks in a row is the winner.If no player has 3 marks in a row, the game ends in a tie."
+        android:textSize="22sp"
+        android:textStyle="italic" />
+</LinearLayout>

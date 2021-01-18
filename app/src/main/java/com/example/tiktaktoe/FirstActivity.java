@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 public class FirstActivity extends AppCompatActivity {
 
 
-    Button butn1;
+    Button butn1, butn2;
     ImageButton play1, stop1;
 
     @Override
@@ -21,6 +21,7 @@ public class FirstActivity extends AppCompatActivity {
         setContentView(R.layout.activity_first);
 
         butn1=findViewById(R.id.butn1);
+        butn2=findViewById(R.id.butn2);
         play1=findViewById(R.id.play1);
         stop1=findViewById(R.id.stop1);
 
@@ -34,6 +35,18 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        butn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
 
 
         play1.setOnClickListener(new View.OnClickListener() {
@@ -52,6 +65,9 @@ public class FirstActivity extends AppCompatActivity {
                 mediaPlayer.stop();
             }
         });
+
+
+
 
 
 
